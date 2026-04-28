@@ -1,0 +1,14 @@
+# Cloudflare Pages için redirect'ler
+
+# www → root (canonical zorlama)
+https://www.oztiryakileryetkiliservisi.com/* https://oztiryakileryetkiliservisi.com/:splat 301!
+
+# Eski statik versiyondaki URL'leri yeni yapıya yönlendir
+/index.html / 301
+/hizmetler.html /hizmetler/ 301
+/kurumsal.html /kurumsal/ 301
+/servis-talep.html /servis-talep/ 301
+/iletisim.html /iletisim/ 301
+
+# Türkçe karakter olmayan alternatifler
+/oztiryakiler-bakimi/ /oztiryakiler-bakimi/ 200
