@@ -106,6 +106,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     url: site.url,
     telephone: site.phone.href,
     email: site.email,
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        telephone: site.phone.href,
+        contactType: 'customer service',
+        areaServed: 'TR',
+        availableLanguage: 'Turkish',
+      },
+      {
+        '@type': 'ContactPoint',
+        telephone: site.phoneAlt.href,
+        contactType: 'customer service',
+        areaServed: 'TR',
+        availableLanguage: 'Turkish',
+      },
+    ],
     priceRange: '$$',
     image: `${site.url}/og-image.jpg`,
     address: {

@@ -38,7 +38,7 @@ export default function ServisTalepPage() {
 
                 <ul className="grid gap-5 list-none">
                   {[
-                    { icon: PhoneIcon, t: 'Çağrı Merkezi', d: site.phone.display },
+                    { icon: PhoneIcon, t: 'Telefon', d: `${site.phone.display} • ${site.phoneAlt.display}` },
                     { icon: WhatsAppIcon, t: 'WhatsApp', d: site.whatsapp.display },
                     { icon: MailIcon, t: 'E-Posta', d: site.email },
                     { icon: PinIcon, t: 'Adres', d: site.address.full },

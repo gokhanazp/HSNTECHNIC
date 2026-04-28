@@ -37,7 +37,7 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-navy to-navy-dark text-white py-20 md:py-24">
+      <section className="relative overflow-hidden bg-[#081c57] text-white py-20 md:py-24">
         <span
           aria-hidden
           className="absolute -top-24 -right-24 w-[500px] h-[500px] rounded-full"
@@ -234,7 +234,7 @@ export default function HomePage() {
       </section>
 
       {/* DETAY HİZMETLER */}
-      <section className="relative overflow-hidden bg-navy text-white py-20">
+      <section className="relative overflow-hidden bg-[#081c57] text-white py-20">
         <span
           aria-hidden
           className="absolute top-0 -right-48 w-[600px] h-[600px] rounded-full"

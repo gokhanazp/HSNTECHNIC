@@ -111,6 +111,9 @@ export default function SeoLanding({
                         <a href={`tel:${site.phone.href}`} className="block text-[15px] font-semibold hover:text-brand-red transition-colors">
                           {site.phone.display}
                         </a>
+                        <a href={`tel:${site.phoneAlt.href}`} className="block text-[15px] font-semibold hover:text-brand-red transition-colors">
+                          {site.phoneAlt.display}
+                        </a>
                       </span>
                     </li>
                     <li className="flex items-start gap-3">

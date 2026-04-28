@@ -72,8 +72,11 @@ export default function Footer() {
           {/* İletişim */}
           <FooterCol title="İletişim">
             <FooterContact icon={<PhoneIcon className="w-4 h-4" />} title="Telefon">
-              <a href={`tel:${site.phone.href}`} className="hover:text-white">
+              <a href={`tel:${site.phone.href}`} className="hover:text-white block">
                 {site.phone.display}
+              </a>
+              <a href={`tel:${site.phoneAlt.href}`} className="hover:text-white block">
+                {site.phoneAlt.display}
               </a>
             </FooterContact>
             <FooterContact icon={<WhatsAppIcon className="w-4 h-4" />} title="WhatsApp">

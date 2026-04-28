@@ -11,10 +11,14 @@ export const site = {
   domain: 'oztiryakileryetkiliservisi.com',
   locale: 'tr_TR',
 
-  // İletişim — gerçek bilgilerle değiştirin
+  // İletişim
   phone: {
-    display: '0850 000 00 00',
-    href: '+908500000000',
+    display: '0535 936 87 03',
+    href: '+905359368703',
+  },
+  phoneAlt: {
+    display: '0535 933 68 19',
+    href: '+905359336819',
   },
   whatsapp: {
     display: '0535 936 87 03',
