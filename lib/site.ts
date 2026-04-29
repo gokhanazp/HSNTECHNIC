@@ -74,6 +74,36 @@ export const seoLandingPages = [
     title: 'Öztiryakiler Ürünleri',
     keyword: 'öztiryakiler ürünleri',
   },
+  {
+    slug: 'oztiryakiler-ocak-tamiri',
+    title: 'Öztiryakiler Ocak Tamiri',
+    keyword: 'öztiryakiler ocak tamiri',
+  },
+  {
+    slug: 'oztiryakiler-fritoz-tamiri',
+    title: 'Öztiryakiler Fritöz Tamiri',
+    keyword: 'öztiryakiler fritöz tamiri',
+  },
+  {
+    slug: 'oztiryakiler-firin-tamiri',
+    title: 'Öztiryakiler Fırın Tamiri',
+    keyword: 'öztiryakiler fırın tamiri',
+  },
+  {
+    slug: 'oztiryakiler-bulasik-makinesi-tamiri',
+    title: 'Öztiryakiler Bulaşık Makinesi Tamiri',
+    keyword: 'öztiryakiler bulaşık makinesi tamiri',
+  },
+  {
+    slug: 'oztiryakiler-benmari-tamiri',
+    title: 'Öztiryakiler Benmari Tamiri',
+    keyword: 'öztiryakiler benmari tamiri',
+  },
+  {
+    slug: 'oztiryakiler-izgara-tamiri',
+    title: 'Öztiryakiler Izgara Tamiri',
+    keyword: 'öztiryakiler ızgara tamiri',
+  },
 ];
 
 export const services = [

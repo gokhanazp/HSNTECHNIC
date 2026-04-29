@@ -11,11 +11,16 @@ const footerServices = mainServices.map((s) => ({
 
 const footerCorp = [
   { label: 'Hakkımızda', href: '/kurumsal' },
-  { label: 'Vizyon & Misyon', href: '/kurumsal' },
   { label: 'Öztiryakiler Servisi', href: '/oztiryakiler-servisi' },
   { label: 'Öztiryakiler Tamiri', href: '/oztiryakiler-tamiri' },
   { label: 'Öztiryakiler Bakımı', href: '/oztiryakiler-bakimi' },
   { label: 'Öztiryakiler Ürünleri', href: '/oztiryakiler-urunleri' },
+  { label: 'Öztiryakiler Ocak Tamiri', href: '/oztiryakiler-ocak-tamiri' },
+  { label: 'Öztiryakiler Fritöz Tamiri', href: '/oztiryakiler-fritoz-tamiri' },
+  { label: 'Öztiryakiler Fırın Tamiri', href: '/oztiryakiler-firin-tamiri' },
+  { label: 'Öztiryakiler Bulaşık Makinesi Tamiri', href: '/oztiryakiler-bulasik-makinesi-tamiri' },
+  { label: 'Öztiryakiler Benmari Tamiri', href: '/oztiryakiler-benmari-tamiri' },
+  { label: 'Öztiryakiler Izgara Tamiri', href: '/oztiryakiler-izgara-tamiri' },
   { label: 'Servis Talebi', href: '/servis-talep' },
   { label: 'İletişim', href: '/iletisim' },
 ];
@@ -132,7 +137,17 @@ export default function Footer() {
           <div>
             © {new Date().getFullYear()} {site.brand} - Öztiryakiler Yetkili Servis Hizmetleri. Tüm hakları saklıdır.
           </div>
-          <div>{site.domain}</div>
+          <div className="flex items-center gap-2">
+            <span>Web Tasarım &amp; Yazılım:</span>
+            <a
+              href="https://gokhan-yildirim.com"
+              target="_blank"
+              rel="noopener"
+              className="text-white/80 hover:text-white font-semibold transition-colors"
+            >
+              gokhan-yildirim.com
+            </a>
+          </div>
         </div>
       </div>
     </footer>

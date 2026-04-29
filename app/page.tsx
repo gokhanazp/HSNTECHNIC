@@ -267,6 +267,74 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ÖZTİRYAKİLER MARKA HİZMETLERİ */}
+      <section className="py-20 bg-white">
+        <div className="max-w-container mx-auto px-6">
+          <SectionHead
+            eyebrow="Öztiryakiler Servisi"
+            title="Öztiryakiler Tamiri Hizmetlerimiz"
+            subtitle="Öztiryakiler endüstriyel mutfak ekipmanlarınız için ekipmana özel tamir hizmetleri. Doğrudan ilgilendiğiniz hizmete tıklayarak detayları inceleyebilirsiniz."
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {[
+              {
+                href: '/oztiryakiler-ocak-tamiri',
+                title: 'Öztiryakiler Ocak Tamiri',
+                desc: 'Brülör, gaz vana, ateşleme ve termostat servisi.',
+              },
+              {
+                href: '/oztiryakiler-fritoz-tamiri',
+                title: 'Öztiryakiler Fritöz Tamiri',
+                desc: 'Rezistans, termostat ve yağ sirkülasyon servisi.',
+              },
+              {
+                href: '/oztiryakiler-firin-tamiri',
+                title: 'Öztiryakiler Fırın Tamiri',
+                desc: 'Konveksiyon, kombi ve döner fırın servisi.',
+              },
+              {
+                href: '/oztiryakiler-bulasik-makinesi-tamiri',
+                title: 'Öztiryakiler Bulaşık Makinesi Tamiri',
+                desc: 'Cup, hood ve tünel tipi makinelere servis.',
+              },
+              {
+                href: '/oztiryakiler-benmari-tamiri',
+                title: 'Öztiryakiler Benmari Tamiri',
+                desc: 'Sulu ve kuru benmarilere rezistans, panel servisi.',
+              },
+              {
+                href: '/oztiryakiler-izgara-tamiri',
+                title: 'Öztiryakiler Izgara Tamiri',
+                desc: 'Lavataşı, plaka ve gazlı ızgara servisi.',
+              },
+            ].map((it) => (
+              <Link
+                key={it.href}
+                href={it.href}
+                className="group bg-slate-50 border border-slate-200 rounded-2xl p-7 transition-all hover:-translate-y-1 hover:shadow-lg2 hover:border-brand-red"
+              >
+                <h3 className="text-[18px] font-bold text-navy mb-2.5 group-hover:text-brand-red transition-colors">
+                  {it.title}
+                </h3>
+                <p className="text-slate-600 text-[14.5px] leading-relaxed mb-4">{it.desc}</p>
+                <span className="text-sm font-semibold text-brand-red inline-flex items-center gap-1.5">
+                  Detayları Gör <ArrowRightIcon className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                </span>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-10 text-center">
+            <Link
+              href="/oztiryakiler-tamiri"
+              className="inline-flex items-center gap-2 text-brand-red font-semibold hover:gap-3 transition-all"
+            >
+              Tüm Öztiryakiler tamiri hizmetlerini gör
+              <ArrowRightIcon className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* PROCESS */}
       <section className="bg-slate-50 py-20">
         <div className="max-w-container mx-auto px-6">
