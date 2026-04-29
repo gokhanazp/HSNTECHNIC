@@ -137,15 +137,14 @@ export default function Footer() {
           <div>
             © {new Date().getFullYear()} {site.brand} - Öztiryakiler Yetkili Servis Hizmetleri. Tüm hakları saklıdır.
           </div>
-          <div className="flex items-center gap-2">
-            <span>Web Tasarım &amp; Yazılım:</span>
+          <div>
             <a
               href="https://gokhan-yildirim.com"
               target="_blank"
               rel="noopener"
-              className="text-white/80 hover:text-white font-semibold transition-colors"
+              className="text-white/60 hover:text-white transition-colors"
             >
-              gokhan-yildirim.com
+              Web Tasarım &amp; Yazılım
             </a>
           </div>
         </div>
