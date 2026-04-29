@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { site, waLink } from '@/lib/site';
 import { mainServices } from '@/lib/services-data';
-import { PhoneIcon, MailIcon, WhatsAppIcon, PinIcon } from './Icons';
+import { PhoneIcon, MailIcon, WhatsAppIcon, PinIcon, InstagramIcon, FacebookIcon } from './Icons';
 
 const footerServices = mainServices.map((s) => ({
   label: s.navTitle,
@@ -49,6 +49,35 @@ export default function Footer() {
               {site.brand} olarak Öztiryakiler yetkili servis hizmetleri kapsamında endüstriyel mutfak ekipmanları için
               profesyonel kurulum, bakım, onarım ve teknik servis çözümleri sunuyoruz.
             </p>
+            <div className="mt-5">
+              <strong className="block text-white text-[13px] font-bold uppercase tracking-[1px] mb-3">
+                Sosyal Medya
+              </strong>
+              <div className="flex items-center gap-3">
+                {site.social.instagram && (
+                  <a
+                    href={site.social.instagram}
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Instagram"
+                    className="w-10 h-10 bg-white/[0.06] hover:bg-brand-red text-white/80 hover:text-white rounded-lg grid place-items-center transition-colors"
+                  >
+                    <InstagramIcon className="w-[18px] h-[18px]" />
+                  </a>
+                )}
+                {site.social.facebook && (
+                  <a
+                    href={site.social.facebook}
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Facebook"
+                    className="w-10 h-10 bg-white/[0.06] hover:bg-brand-red text-white/80 hover:text-white rounded-lg grid place-items-center transition-colors"
+                  >
+                    <FacebookIcon className="w-[18px] h-[18px]" />
+                  </a>
+                )}
+              </div>
+            </div>
           </div>
 
           {/* Hizmetler */}
@@ -74,9 +103,6 @@ export default function Footer() {
             <FooterContact icon={<PhoneIcon className="w-4 h-4" />} title="Telefon">
               <a href={`tel:${site.phone.href}`} className="hover:text-white block">
                 {site.phone.display}
-              </a>
-              <a href={`tel:${site.phoneAlt.href}`} className="hover:text-white block">
-                {site.phoneAlt.display}
               </a>
             </FooterContact>
             <FooterContact icon={<WhatsAppIcon className="w-4 h-4" />} title="WhatsApp">

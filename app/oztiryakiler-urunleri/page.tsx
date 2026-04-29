@@ -59,12 +59,12 @@ export default function OztiryakilerUrunleriPage() {
         }}
         intro={[
           'Öztiryakiler ürünleri, Türkiye ve uluslararası pazarda endüstriyel mutfak sektörünün en güvenilir markalarından biri olarak bilinir. Restoranlar, oteller, hastaneler, catering firmaları ve toplu yemek üreticileri günlük operasyonlarında Öztiryakiler ürünlerine güvenir. HSN TECHNIC olarak tüm Öztiryakiler ürünleri için yetkili servis kalitesinde kurulum, bakım, onarım ve danışmanlık hizmeti sunuyoruz.',
-          'Öztiryakiler ürünleri arasında endüstriyel ocaklar, fritözler, fırınlar (konveksiyonlu, kombi, döner fırınlar), endüstriyel ızgaralar (lavataşı, ızgara plakalar), benmariler, endüstriyel bulaşık makineleri (cup, hood ve tünel tipi), davlumbaz ve havalandırma sistemleri, soğuk oda ve soğutma ekipmanları yer almaktadır. Her bir ürün grubuna özel teknik bilgi ve deneyimle servis sunuyoruz.',
+          'Öztiryakiler ürünleri arasında endüstriyel ocaklar, fritözler, fırınlar (konveksiyonlu, kombi, döner fırınlar), endüstriyel ızgaralar (lavataşı, ızgara plakalar), benmariler, endüstriyel bulaşık makineleri (cup, hood ve tünel tipi), soğuk oda ve soğutma ekipmanları yer almaktadır. Her bir ürün grubuna özel teknik bilgi ve deneyimle servis sunuyoruz.',
           'Yeni Öztiryakiler ürünleri kurulumunda, mevcut ekipmanların yenilenmesinde, bakım planlamasında ve arıza durumunda profesyonel destek sağlıyoruz. Ayrıca uygun durumlarda yenilenmiş, garantili ikinci el Öztiryakiler ürünleri sunarak işletmenizin başlangıç maliyetini optimize etmenize yardımcı oluyoruz. Tüm bu süreçler boyunca, kurumsal hizmet anlayışıyla şeffaf, faturalı ve raporlu bir iş ilişkisi yürütüyoruz.',
         ]}
         features={[
           'Tüm Öztiryakiler ürünleri için kurulum, bakım ve teknik servis tek elden sunulur.',
-          'Endüstriyel ocak, fritöz, fırın, ızgara, benmari, bulaşık makinesi, davlumbaz ve soğuk oda dahil tüm ürün gruplarına servis.',
+          'Endüstriyel ocak, fritöz, fırın, ızgara, benmari, bulaşık makinesi ve soğuk oda dahil tüm ürün gruplarına servis.',
           'Yeni ürün kurulumu, mevcut ekipman yenileme ve revizyon hizmetleri.',
           'Yenilenmiş, garantili ikinci el Öztiryakiler ürünleri alım-satım imkânı.',
           'Yedek parça temini ve orijinal/uyumlu parça desteği.',
@@ -99,7 +99,7 @@ export default function OztiryakilerUrunleriPage() {
         faq={[
           {
             q: 'Hangi Öztiryakiler ürünleri için servis veriyorsunuz?',
-            a: 'Endüstriyel ocak, fritöz, fırın, ızgara, benmari, bulaşık makinesi, davlumbaz, hava emiş üniteleri ve soğuk oda sistemleri başta olmak üzere tüm Öztiryakiler endüstriyel mutfak ürün gruplarına servis veriyoruz.',
+            a: 'Endüstriyel ocak, fritöz, fırın, ızgara, benmari, bulaşık makinesi ve soğuk oda sistemleri başta olmak üzere tüm Öztiryakiler endüstriyel mutfak ürün gruplarına servis veriyoruz.',
           },
           {
             q: 'Yeni ürün kurulumu yapıyor musunuz?',

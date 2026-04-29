@@ -74,7 +74,7 @@ export default function OztiryakilerServisiPage() {
           },
           {
             title: 'Tüm Ekipman Tiplerine Servis',
-            desc: 'Ocak, fritöz, fırın, ızgara, benmari, bulaşık makinesi, davlumbaz ve soğuk oda dahil tüm ürün gruplarına Öztiryakiler servisi sağlanır.',
+            desc: 'Ocak, fritöz, fırın, ızgara, benmari, bulaşık makinesi ve soğuk oda dahil tüm ürün gruplarına Öztiryakiler servisi sağlanır.',
           },
           {
             title: 'Hızlı ve Çözüm Odaklı',

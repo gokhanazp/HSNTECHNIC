@@ -42,7 +42,6 @@ export const metadata: Metadata = {
     'endüstriyel ızgara tamiri',
     'endüstriyel benmari tamiri',
     'endüstriyel fırın tamiri',
-    'endüstriyel davlumbaz tamiri',
     'soğuk oda tamiri',
     'hsn technic',
   ],
@@ -116,7 +115,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       },
       {
         '@type': 'ContactPoint',
-        telephone: site.phoneAlt.href,
+        telephone: `+${site.whatsapp.number}`,
         contactType: 'customer service',
         areaServed: 'TR',
         availableLanguage: 'Turkish',
@@ -142,10 +141,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       'Endüstriyel Mutfak Teknik Servisi',
       'Endüstriyel Mutfak Kurulum ve Proje',
       'Soğuk Oda Sistemleri',
-      'Davlumbaz ve Havalandırma',
       'Periyodik Bakım Sözleşmeleri',
     ],
-    sameAs: [],
+    sameAs: [site.social.instagram, site.social.facebook, site.social.youtube].filter(Boolean),
   };
 
   return (

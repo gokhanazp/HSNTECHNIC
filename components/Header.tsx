@@ -15,7 +15,6 @@ import {
   KitchenIcon,
   ProjectIcon,
   ColdIcon,
-  HoodIcon,
   GearIcon,
   BoxIcon,
   CheckIcon,
@@ -25,7 +24,6 @@ const mainServiceIcons: Record<string, (p: any) => JSX.Element> = {
   'endustriyel-mutfak-servisi': KitchenIcon,
   'mutfak-kurulum-proje': ProjectIcon,
   'soguk-oda-sistemleri': ColdIcon,
-  'davlumbaz-havalandirma': HoodIcon,
   'periyodik-bakim': GearIcon,
   'ikinci-el-ekipman': BoxIcon,
 };

@@ -36,8 +36,6 @@ export default function IletisimPage() {
                 desc: 'Bizi telefon ile arayın.',
                 value: site.phone.display,
                 href: `tel:${site.phone.href}`,
-                altValue: site.phoneAlt.display,
-                altHref: `tel:${site.phoneAlt.href}`,
                 whatsappStyle: false,
                 external: false,
               },
@@ -92,17 +90,6 @@ export default function IletisimPage() {
                 >
                   {it.value}
                 </a>
-                {it.altValue && (
-                  <>
-                    <span className="block text-slate-400 text-[12px] my-1">veya</span>
-                    <a
-                      href={it.altHref}
-                      className="text-navy font-semibold hover:text-brand-red break-words text-[14px] leading-snug inline-block"
-                    >
-                      {it.altValue}
-                    </a>
-                  </>
-                )}
               </article>
             ))}
           </div>

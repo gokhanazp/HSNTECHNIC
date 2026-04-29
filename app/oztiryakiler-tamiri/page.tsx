@@ -57,7 +57,7 @@ export default function OztiryakilerTamiriPage() {
             'Öztiryakiler tamiri ihtiyacınız için HSN TECHNIC yanınızda. Tüm endüstriyel mutfak ekipmanlarınızdaki arızalara hızlı, kalıcı ve garantili çözümler sunuyoruz.',
         }}
         intro={[
-          'Öztiryakiler tamiri, endüstriyel mutfak ekipmanlarının doğru teşhis edilip uzun ömürlü onarılması için uzmanlık gerektirir. HSN TECHNIC olarak Öztiryakiler tamiri konusunda sertifikalı teknik kadromuzla; ocak, fritöz, fırın, ızgara, benmari, bulaşık makinesi, davlumbaz ve soğuk oda gibi tüm endüstriyel mutfak ekipmanlarına yetkili servis kalitesinde tamir hizmeti sunuyoruz.',
+          'Öztiryakiler tamiri, endüstriyel mutfak ekipmanlarının doğru teşhis edilip uzun ömürlü onarılması için uzmanlık gerektirir. HSN TECHNIC olarak Öztiryakiler tamiri konusunda sertifikalı teknik kadromuzla; ocak, fritöz, fırın, ızgara, benmari, bulaşık makinesi ve soğuk oda gibi tüm endüstriyel mutfak ekipmanlarına yetkili servis kalitesinde tamir hizmeti sunuyoruz.',
           'Öztiryakiler tamiri sürecinde önce hassas bir arıza tespiti yapar, ardından ekonomik ve kalıcı bir çözüm yolu öneririz. Onarımlarımızda orijinal ya da uyumlu yedek parça kullanırız; tüm tamir işlemleri için işçilik garantisi sağlarız. Geçici çözümler yerine kök sebebe yönelik onarım yapmak; ekipmanın daha sonra benzer bir arıza ile karşılaşma riskini ortadan kaldırır.',
           'Her endüstriyel mutfak işletmesinde bir ekipman arızası, kısa sürede ciddi gelir kayıplarına dönüşebilir. Öztiryakiler tamiri taleplerinize 7/24 ulaşılabilir çağrı merkezimiz ve WhatsApp hattımızla anında dönüş yapıyor; mümkün olan en kısa sürede yerinde müdahaleyi planlıyoruz. Türkiye genelinde sunduğumuz Öztiryakiler tamiri hizmeti, kurumsal işletmelerin en çok tercih ettiği teknik servis çözümlerinden biridir.',
         ]}
@@ -106,7 +106,7 @@ export default function OztiryakilerTamiriPage() {
           },
           {
             q: 'Hangi ekipmanlar tamir kapsamında?',
-            a: 'Endüstriyel ocak tamiri, fritöz tamiri, fırın tamiri, ızgara tamiri, benmari tamiri, bulaşık makinesi tamiri, davlumbaz tamiri ve soğuk oda tamiri başta olmak üzere tüm Öztiryakiler endüstriyel mutfak ekipmanlarına tamir hizmeti veriyoruz.',
+            a: 'Endüstriyel ocak tamiri, fritöz tamiri, fırın tamiri, ızgara tamiri, benmari tamiri, bulaşık makinesi tamiri ve soğuk oda tamiri başta olmak üzere tüm Öztiryakiler endüstriyel mutfak ekipmanlarına tamir hizmeti veriyoruz.',
           },
           {
             q: 'Tamir öncesinde fiyat alabilir miyim?',

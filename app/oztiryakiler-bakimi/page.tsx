@@ -57,7 +57,7 @@ export default function OztiryakilerBakimiPage() {
         }}
         intro={[
           'Öztiryakiler bakımı, endüstriyel mutfaklarda arıza riskini minimize etmenin, ekipman ömrünü uzatmanın ve enerji verimliliğini artırmanın en etkili yoludur. HSN TECHNIC olarak Öztiryakiler bakımı kapsamında işletmenizin operasyonel ihtiyaçlarına özel periyodik bakım programları hazırlıyor; aylık, üç aylık ve yıllık periyotlarda planlı bakım hizmetleri sunuyoruz.',
-          'Düzenli yapılan Öztiryakiler bakımı, ani arızalar nedeniyle oluşabilecek operasyon kesintilerini ve buna bağlı gelir kayıplarını önler. Bakım sürecinde ekipmanlarınız uzman teknisyenlerimiz tarafından detaylı kontrolden geçirilir; aşınmış parçalar tespit edilerek arıza oluşmadan değişimi önerilir. Brülör performansı, gaz kaçağı kontrolü, elektrik tesisat güvenliği, soğutma sistemleri verimi ve davlumbaz emiş gücü gibi kritik noktalar her bakımda kontrol edilir.',
+          'Düzenli yapılan Öztiryakiler bakımı, ani arızalar nedeniyle oluşabilecek operasyon kesintilerini ve buna bağlı gelir kayıplarını önler. Bakım sürecinde ekipmanlarınız uzman teknisyenlerimiz tarafından detaylı kontrolden geçirilir; aşınmış parçalar tespit edilerek arıza oluşmadan değişimi önerilir. Brülör performansı, gaz kaçağı kontrolü, elektrik tesisat güvenliği ve soğutma sistemleri verimi gibi kritik noktalar her bakımda kontrol edilir.',
           'Öztiryakiler bakımı sözleşmesi yapan müşterilerimiz; bakım sırasında fark edilen arızalarda öncelikli servis avantajından yararlanır, indirimli işçilik ücretleriyle hizmet alır ve dönemsel detaylı bakım raporlarına erişir. Bu, sadece kısa vadede maliyet avantajı değil; uzun vadede ekipman değer kaybını ciddi şekilde yavaşlatan stratejik bir yatırımdır.',
         ]}
         features={[
@@ -105,7 +105,7 @@ export default function OztiryakilerBakimiPage() {
           },
           {
             q: 'Bakımda hangi kontroller yapılıyor?',
-            a: 'Brülör performansı, gaz hattı sızdırmazlık testi, elektrik tesisatı güvenliği, soğutma sistemleri verim ölçümü, davlumbaz emiş gücü ve filtre temizliği, sıcaklık kalibrasyonu, mekanik aksamların yağlanması başta olmak üzere tüm kritik noktaları kontrol ediyoruz.',
+            a: 'Brülör performansı, gaz hattı sızdırmazlık testi, elektrik tesisatı güvenliği, soğutma sistemleri verim ölçümü, sıcaklık kalibrasyonu, mekanik aksamların yağlanması başta olmak üzere tüm kritik noktaları kontrol ediyoruz.',
           },
           {
             q: 'Bakım sırasında arıza tespit edilirse?',

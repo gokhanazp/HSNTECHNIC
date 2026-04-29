@@ -9,7 +9,6 @@ import {
   KitchenIcon,
   ProjectIcon,
   ColdIcon,
-  HoodIcon,
   GearIcon,
   BoxIcon,
   ArrowRightIcon,
@@ -19,7 +18,6 @@ const mainServiceIcons: Record<string, (p: any) => JSX.Element> = {
   'endustriyel-mutfak-servisi': KitchenIcon,
   'mutfak-kurulum-proje': ProjectIcon,
   'soguk-oda-sistemleri': ColdIcon,
-  'davlumbaz-havalandirma': HoodIcon,
   'periyodik-bakim': GearIcon,
   'ikinci-el-ekipman': BoxIcon,
 };
@@ -27,7 +25,7 @@ const mainServiceIcons: Record<string, (p: any) => JSX.Element> = {
 export const metadata: Metadata = {
   title: 'Hizmetler — Endüstriyel Mutfak Teknik Servisi',
   description:
-    'Öztiryakiler yetkili servis hizmetleri: endüstriyel mutfak servisi, kurulum, soğuk oda, davlumbaz, periyodik bakım ve tüm ekipman tamir hizmetleri.',
+    'Öztiryakiler yetkili servis hizmetleri: endüstriyel mutfak servisi, kurulum, soğuk oda, periyodik bakım ve tüm ekipman tamir hizmetleri.',
   alternates: { canonical: '/hizmetler' },
 };
 

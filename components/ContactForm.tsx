@@ -11,7 +11,6 @@ const services = [
   'Endüstriyel Izgara Tamiri',
   'Endüstriyel Benmari Tamiri',
   'Endüstriyel Fırın Tamiri',
-  'Endüstriyel Davlumbaz Tamiri',
   'Endüstriyel Soğuk Oda Tamiri',
   'Periyodik Bakım',
   'Mutfak Kurulum / Proje',

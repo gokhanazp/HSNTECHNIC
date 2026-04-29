@@ -13,16 +13,12 @@ export const site = {
 
   // İletişim
   phone: {
-    display: '0535 936 87 03',
-    href: '+905359368703',
-  },
-  phoneAlt: {
-    display: '0535 933 68 19',
-    href: '+905359336819',
+    display: '0536 778 23 79',
+    href: '+905367782379',
   },
   whatsapp: {
-    display: '0535 936 87 03',
-    number: '905359368703', // başında 90 ülke kodu, + olmadan
+    display: '0535 933 68 19',
+    number: '905359336819', // başında 90 ülke kodu, + olmadan
   },
   email: 'info@oztiryakileryetkiliservisi.com',
 
@@ -38,8 +34,8 @@ export const site = {
 
   // Sosyal (opsiyonel)
   social: {
-    instagram: '',
-    facebook: '',
+    instagram: 'https://www.instagram.com/hsntechnic',
+    facebook: 'https://www.facebook.com/hsn.technic',
     youtube: '',
   },
 };
@@ -103,13 +99,6 @@ export const services = [
     icon: 'cold',
   },
   {
-    slug: 'davlumbaz-havalandirma',
-    title: 'Havalandırma & Davlumbaz',
-    short:
-      'Davlumbaz sistemleri kurulumu, baca tesisatı, hava emiş üniteleri ve havalandırma sistemlerinde teknik servis.',
-    icon: 'hood',
-  },
-  {
     slug: 'periyodik-bakim',
     title: 'Periyodik Bakım & Teknik Servis',
     short:
@@ -132,6 +121,5 @@ export const detailServices = [
   'Endüstriyel Izgara Tamiri',
   'Endüstriyel Benmari Tamiri',
   'Endüstriyel Fırın Tamiri',
-  'Endüstriyel Davlumbaz Tamiri',
   'Endüstriyel Soğuk Oda Tamiri',
 ];

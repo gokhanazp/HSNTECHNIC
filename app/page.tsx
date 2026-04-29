@@ -12,7 +12,6 @@ import {
   KitchenIcon,
   ProjectIcon,
   ColdIcon,
-  HoodIcon,
   GearIcon,
   BoxIcon,
 } from '@/components/Icons';
@@ -21,7 +20,6 @@ const mainServiceIcons: Record<string, (p: any) => JSX.Element> = {
   'endustriyel-mutfak-servisi': KitchenIcon,
   'mutfak-kurulum-proje': ProjectIcon,
   'soguk-oda-sistemleri': ColdIcon,
-  'davlumbaz-havalandirma': HoodIcon,
   'periyodik-bakim': GearIcon,
   'ikinci-el-ekipman': BoxIcon,
 };
@@ -151,7 +149,6 @@ export default function HomePage() {
             </p>
             <ul className="grid gap-3.5 mt-6 list-none">
               {[
-                'Yetkili servis kalitesinde uzman müdahale',
                 'Tüm endüstriyel mutfak markalarına teknik destek',
                 'Şeffaf fiyatlandırma ve garantili hizmet',
                 'Sözleşmeli periyodik bakım programları',

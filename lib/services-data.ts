@@ -39,7 +39,7 @@ export const servicesData: ServiceData[] = [
     },
     intro: [
       'Endüstriyel mutfak servisi, restoran, otel, catering ve toplu yemek tesislerinde operasyonel sürekliliğin temelidir. Bir ekipmanın arızalanması saatler içinde ciddi ciro kayıplarına dönüşebilir. HSN TECHNIC olarak endüstriyel mutfak servisi alanında 15 yılı aşkın tecrübemizle, sertifikalı teknik kadromuz ve hızlı müdahale prensibimizle yanınızdayız.',
-      'Tüm endüstriyel mutfak ekipmanı tiplerine — ocak, fritöz, fırın, ızgara, benmari, bulaşık makinesi, davlumbaz ve soğuk oda — kapsamlı servis sağlıyoruz. Her servis çağrısı; arıza tespiti, onarım, test ve raporlama aşamalarından geçer. Endüstriyel mutfak servisi süreçlerimiz, yetkili servis standartlarına uygun şekilde işçilik garantisi kapsamında yürütülür.',
+      'Tüm endüstriyel mutfak ekipmanı tiplerine — ocak, fritöz, fırın, ızgara, benmari, bulaşık makinesi ve soğuk oda — kapsamlı servis sağlıyoruz. Her servis çağrısı; arıza tespiti, onarım, test ve raporlama aşamalarından geçer. Endüstriyel mutfak servisi süreçlerimiz, yetkili servis standartlarına uygun şekilde işçilik garantisi kapsamında yürütülür.',
     ],
     features: [
       'Aynı gün servis prensibi ile hızlı müdahale',
@@ -88,13 +88,12 @@ export const servicesData: ServiceData[] = [
     },
     intro: [
       'Endüstriyel mutfak kurulumu, sadece ekipman yerleştirme değil; iş akışı, hijyen, enerji verimliliği ve güvenlik standartlarını birlikte ele alan bir mühendislik sürecidir. HSN TECHNIC olarak yeni açılan veya yenilenen işletmeler için anahtar teslim mutfak proje hizmetleri sunuyoruz.',
-      'Proje sürecimiz işletmenizin operasyonel ihtiyaçlarının analizi ile başlar. Mutfak alanı, menü, kapasite ve çalışan sayısı dikkate alınarak uygun ekipman listesi ve yerleşim planı hazırlanır. Tesisat (gaz, elektrik, su, atık), havalandırma, soğutma sistemleri ve ekipman montajı koordineli olarak gerçekleştirilir.',
+      'Proje sürecimiz işletmenizin operasyonel ihtiyaçlarının analizi ile başlar. Mutfak alanı, menü, kapasite ve çalışan sayısı dikkate alınarak uygun ekipman listesi ve yerleşim planı hazırlanır. Tesisat (gaz, elektrik, su, atık), soğutma sistemleri ve ekipman montajı koordineli olarak gerçekleştirilir.',
     ],
     features: [
       'Detaylı keşif ve operasyonel ihtiyaç analizi',
       'Mutfak yerleşim planı ve ekipman listesi hazırlanması',
       'Tesisat (gaz, elektrik, su, atık) koordinasyonu',
-      'Havalandırma ve davlumbaz sistemlerinin entegrasyonu',
       'Anahtar teslim devreye alma ve eğitim',
       'Proje sonrası periyodik bakım sözleşmesi imkânı',
     ],
@@ -102,7 +101,7 @@ export const servicesData: ServiceData[] = [
       { title: '1. Keşif & Analiz', desc: 'İşletmenizi yerinde inceler, kapasite ve menü ihtiyacınızı analiz ederiz.' },
       { title: '2. Proje Tasarımı', desc: 'Yerleşim planı, ekipman listesi ve teklif hazırlanır.' },
       { title: '3. Ekipman Tedariki', desc: 'Onaylanan ekipmanlar tedarik edilir.' },
-      { title: '4. Tesisat & Montaj', desc: 'Gaz, elektrik, su, havalandırma tesisatı ve ekipman montajı yapılır.' },
+      { title: '4. Tesisat & Montaj', desc: 'Gaz, elektrik, su tesisatı ve ekipman montajı yapılır.' },
       { title: '5. Devreye Alma', desc: 'Tüm sistemler test edilir, kullanıcı eğitimi verilir.' },
     ],
     faq: [
@@ -169,50 +168,6 @@ export const servicesData: ServiceData[] = [
     ],
   },
   {
-    slug: 'davlumbaz-havalandirma',
-    category: 'ana',
-    title: 'Davlumbaz ve Havalandırma Sistemleri',
-    navTitle: 'Davlumbaz & Havalandırma',
-    shortDesc:
-      'Davlumbaz sistemleri kurulumu, baca tesisatı, hava emiş üniteleri ve havalandırma sistemlerinde teknik servis.',
-    metaTitle: 'Endüstriyel Davlumbaz ve Havalandırma Sistemleri',
-    metaDescription:
-      'Endüstriyel davlumbaz kurulum ve servisi, baca tesisatı, hava emiş üniteleri ve havalandırma çözümleri. HSN TECHNIC ile kapsamlı havalandırma hizmetleri.',
-    keywords: ['davlumbaz', 'endüstriyel davlumbaz', 'davlumbaz tamiri', 'havalandırma', 'baca tesisatı'],
-    hero: {
-      h1: 'Davlumbaz ve Havalandırma Sistemleri',
-      intro: 'Endüstriyel mutfaklar için davlumbaz kurulumu, baca tesisatı ve havalandırma çözümleri.',
-    },
-    intro: [
-      'Endüstriyel davlumbaz ve havalandırma sistemleri, mutfakta oluşan duman, koku, yağ buharı ve nemin tahliyesi için kritik öneme sahiptir. Doğru tasarlanmamış bir havalandırma sistemi; çalışan sağlığı, ekipman ömrü ve işyeri konforu açısından ciddi sorunlar yaratır.',
-      'HSN TECHNIC olarak davlumbaz kurulumu, baca tesisatı, hava emiş ünitelerinin montajı ve mevcut sistemlerin onarımı konularında uzman ekibimizle hizmet veriyoruz. Filtre tipi davlumbazlar, su perdeli davlumbazlar ve yağ tutucu sistemler dahil tüm uygulamalarda çözüm sunuyoruz.',
-    ],
-    features: [
-      'Endüstriyel davlumbaz kurulumu (filtreli, su perdeli)',
-      'Baca tesisatı ve hava tahliye sistemleri',
-      'Hava emiş üniteleri ve aspiratör montajı',
-      'Filtre temizliği ve değişimi',
-      'Davlumbaz arıza onarımı ve revizyonu',
-      'Yangın güvenliği için yağ tutucu sistemler',
-    ],
-    process: [
-      { title: '1. Keşif', desc: 'Mutfak alanı ve mevcut sistem incelenir.' },
-      { title: '2. Tasarım', desc: 'Doğru davlumbaz tipi ve hava akış kapasitesi belirlenir.' },
-      { title: '3. Kurulum', desc: 'Davlumbaz, baca ve aspiratör monte edilir.' },
-      { title: '4. Test & Bakım', desc: 'Hava akış testi yapılır, periyodik bakım planlanır.' },
-    ],
-    faq: [
-      {
-        q: 'Davlumbazımdan koku geliyor, sebebi nedir?',
-        a: 'Genelde filtre tıkanıklığı, aspiratör arızası veya baca tasarım hatasından kaynaklanır. Yerinde inceleme ile sorunun kaynağı tespit edilir.',
-      },
-      {
-        q: 'Davlumbaz filtresi ne sıklıkla değişmelidir?',
-        a: 'Yoğun kullanılan mutfaklarda metal filtreler haftada bir temizlenmeli; karbon/yağ filtreler 3-6 ayda bir değiştirilmelidir.',
-      },
-    ],
-  },
-  {
     slug: 'periyodik-bakim',
     category: 'ana',
     title: 'Periyodik Bakım ve Sözleşmeli Servis',
@@ -273,7 +228,7 @@ export const servicesData: ServiceData[] = [
     },
     intro: [
       'İkinci el endüstriyel mutfak ekipmanları, yeni açılan işletmeler veya kapasite genişletmek isteyen mevcut işletmeler için ekonomik bir başlangıç sağlar. HSN TECHNIC olarak 2. el ekipman alım satımında, her ürünün teknik kontrolden geçtiği ve yenilendiği bir süreç işletiyoruz.',
-      'Stoklarımızda Öztiryakiler başta olmak üzere çeşitli markalara ait ocak, fritöz, fırın, ızgara, bulaşık makinesi, soğuk oda, davlumbaz gibi ekipmanlar bulunmaktadır. Tüm 2. el ürünlerimiz teknik servis garantisi ile satışa sunulur.',
+      'Stoklarımızda Öztiryakiler başta olmak üzere çeşitli markalara ait ocak, fritöz, fırın, ızgara, bulaşık makinesi ve soğuk oda gibi ekipmanlar bulunmaktadır. Tüm 2. el ürünlerimiz teknik servis garantisi ile satışa sunulur.',
     ],
     features: [
       'Yenilenmiş ve teknik kontrolden geçmiş ekipmanlar',
@@ -546,45 +501,6 @@ export const servicesData: ServiceData[] = [
       {
         q: 'Fırınım sıcaklığı tutmuyor, sebebi nedir?',
         a: 'Termostat, sıcaklık sensörü veya kontrol panel arızası olabilir. Yerinde inceleme ile kesin tespit yapılır.',
-      },
-    ],
-  },
-  {
-    slug: 'endustriyel-davlumbaz-tamiri',
-    category: 'tamir',
-    title: 'Endüstriyel Davlumbaz Tamiri',
-    navTitle: 'Endüstriyel Davlumbaz Tamiri',
-    shortDesc: 'Endüstriyel davlumbaz tamiri, aspiratör servisi, filtre değişimi ve baca onarımı.',
-    metaTitle: 'Endüstriyel Davlumbaz Tamiri - Aspiratör ve Filtre Servisi',
-    metaDescription:
-      'Endüstriyel davlumbaz tamiri için HSN TECHNIC. Aspiratör servisi, filtre değişimi, baca onarımı ve hava akış optimizasyonu.',
-    keywords: ['endüstriyel davlumbaz tamiri', 'davlumbaz servisi', 'aspiratör tamiri', 'davlumbaz filtre değişimi'],
-    hero: {
-      h1: 'Endüstriyel Davlumbaz Tamiri',
-      intro: 'Davlumbaz, aspiratör ve hava emiş sistemleriniz için profesyonel tamir hizmetleri.',
-    },
-    intro: [
-      'Endüstriyel davlumbaz tamiri, mutfak içi hava kalitesi ve çalışan sağlığı için doğrudan etki eden bir servis hizmetidir. HSN TECHNIC olarak filtreli davlumbazlar, su perdeli davlumbazlar ve tüm hava emiş sistemlerine tamir hizmeti veriyoruz.',
-      'Aspiratör motor arızaları, hava akış düşüklüğü, filtre tıkanıklığı, baca tesisat sorunları ve kontrol panel arızaları en sık görülen davlumbaz problemleridir. Uzman ekibimiz tüm bu sorunlara kalıcı çözüm sunar.',
-    ],
-    features: [
-      'Aspiratör motor servisi ve değişimi',
-      'Filtre temizliği ve değişimi',
-      'Baca tesisat onarımı',
-      'Hava akış kapasitesi optimizasyonu',
-      'Su perdeli sistem onarımı',
-      'Kontrol panel ve hız ayar servisi',
-    ],
-    process: [
-      { title: '1. Tespit', desc: 'Davlumbaz ve sistem incelenir.' },
-      { title: '2. Teklif', desc: 'Onarım planı paylaşılır.' },
-      { title: '3. Onarım', desc: 'Tamir gerçekleştirilir.' },
-      { title: '4. Test', desc: 'Hava akış testi yapılır, teslim edilir.' },
-    ],
-    faq: [
-      {
-        q: 'Davlumbazım yeterince çekmiyor, ne yapmalıyım?',
-        a: 'Filtre tıkanıklığı, motor arızası veya baca problemi olabilir. Yerinde inceleme ile çözüm sunarız.',
       },
     ],
   },
