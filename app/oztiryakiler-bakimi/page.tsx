@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Öztiryakiler Bakımı - Periyodik Bakım ve Sözleşmeli Servis',
   description:
     'Öztiryakiler bakımı için profesyonel periyodik bakım hizmetleri. HSN TECHNIC olarak endüstriyel mutfak ekipmanlarınızın ömrünü uzatan sözleşmeli bakım çözümleri sunuyoruz.',
-  alternates: { canonical: '/oztiryakiler-bakimi' },
+  alternates: { canonical: '/oztiryakiler-bakimi/' },
   keywords: [
     'öztiryakiler bakımı',
     'öztiryakiler bakim',
@@ -19,7 +19,15 @@ export const metadata: Metadata = {
     title: 'Öztiryakiler Bakımı - HSN TECHNIC Yetkili Servis',
     description:
       'Öztiryakiler endüstriyel mutfak ekipmanları için periyodik bakım, önleyici servis ve sözleşmeli bakım çözümleri.',
-    url: `${site.url}/oztiryakiler-bakimi`,
+    url: `${site.url}/oztiryakiler-bakimi/`,
+    type: 'website',
+    siteName: site.brand,
+    locale: site.locale,
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Öztiryakiler Bakımı' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.jpg'],
   },
 };
 

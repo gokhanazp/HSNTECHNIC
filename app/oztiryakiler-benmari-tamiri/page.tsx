@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Öztiryakiler Benmari Tamiri - Endüstriyel Sıcak Sunum Servisi',
   description:
     'Öztiryakiler benmari tamiri için HSN TECHNIC. Rezistans, termostat, su seviye sensörü ve kontrol panel arızalarına profesyonel onarım.',
-  alternates: { canonical: '/oztiryakiler-benmari-tamiri' },
+  alternates: { canonical: '/oztiryakiler-benmari-tamiri/' },
   keywords: [
     'öztiryakiler benmari tamiri',
     'öztiryakiler benmari servisi',
@@ -18,7 +18,15 @@ export const metadata: Metadata = {
     title: 'Öztiryakiler Benmari Tamiri - HSN TECHNIC Yetkili Servis',
     description:
       'Sulu, kuru ve modüler Öztiryakiler endüstriyel benmari modellerinde rezistans, termostat ve panel servisi.',
-    url: `${site.url}/oztiryakiler-benmari-tamiri`,
+    url: `${site.url}/oztiryakiler-benmari-tamiri/`,
+    type: 'website',
+    siteName: site.brand,
+    locale: site.locale,
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Öztiryakiler Benmari Tamiri' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.jpg'],
   },
 };
 

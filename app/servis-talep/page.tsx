@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Servis Talep Formu — Hızlı Servis Talebi Oluştur',
   description:
     'HSN TECHNIC servis talep formu. Endüstriyel mutfak ekipmanlarınız için hızlı servis talebi oluşturun. Aynı gün geri dönüş, profesyonel teknik servis. Öztiryakiler yetkili servis.',
-  alternates: { canonical: '/servis-talep' },
+  alternates: { canonical: '/servis-talep/' },
 };
 
 export default function ServisTalepPage() {

@@ -78,11 +78,20 @@ export const metadata: Metadata = {
     siteName: site.brand,
     title: `${site.brand} | Öztiryakiler Yetkili Servis Hizmetleri`,
     description: site.description,
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: `${site.brand} - Öztiryakiler Yetkili Servis`,
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: `${site.brand} | Öztiryakiler Yetkili Servis`,
     description: site.description,
+    images: ['/og-image.jpg'],
   },
   robots: {
     index: true,
@@ -95,9 +104,13 @@ export const metadata: Metadata = {
       'max-video-preview': -1,
     },
   },
+  // Google Search Console doğrulama: GSC'den alacağın 'content' değerini
+  // aşağıdaki satıra yapıştır. Doğrulama tamamlandıktan sonra GSC üzerinden
+  // sitemap.xml'i mutlaka manuel olarak gönder.
   verification: {
-    // google: 'GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE_BURAYA',
+    // google: 'BURAYA_GSC_VERIFICATION_KODU',
   },
+  category: 'Endüstriyel Mutfak Teknik Servisi',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -128,7 +141,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       },
     ],
     priceRange: '$$',
-    image: `${site.url}/og-image.jpg`,
+    image: [`${site.url}/og-image.jpg`, `${site.url}/hsn-logo.png`],
+    logo: `${site.url}/hsn-logo.png`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: site.address.street,
@@ -152,8 +166,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     sameAs: [site.social.instagram, site.social.facebook, site.social.youtube].filter(Boolean),
   };
 
+  // Cloudflare _redirects dosyasındaki www→apex kuralı bazı durumlarda
+  // (DNS / custom domain ayarına bağlı) çalışmıyor. Yedek olarak meta refresh +
+  // inline JS ile www subdomain'inden gelen ziyaretçileri apex'e yönlendiriyoruz.
+  // (Bu sadece JS açıkken çalışır; gerçek 301 için Cloudflare panelinden
+  //  www.* için "Redirect Rule" ya da Bulk Redirect tanımlanmalıdır.)
+  const wwwRedirectScript = `if(location.hostname==='www.${site.domain}'){location.replace('https://${site.domain}'+location.pathname+location.search+location.hash);}`;
+
   return (
     <html lang="tr" className={inter.variable}>
+      <head>
+        <script
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: wwwRedirectScript }}
+        />
+      </head>
       <body className="font-sans antialiased text-slate-900 bg-white">
         <Header />
         <main>{children}</main>

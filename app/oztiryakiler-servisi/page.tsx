@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Öztiryakiler Servisi - Endüstriyel Mutfak Yetkili Servis',
   description:
     'Öztiryakiler servisi için profesyonel destek. HSN TECHNIC olarak tüm Öztiryakiler endüstriyel mutfak ekipmanlarına yetkili servis kalitesinde teknik servis ve onarım sunuyoruz.',
-  alternates: { canonical: '/oztiryakiler-servisi' },
+  alternates: { canonical: '/oztiryakiler-servisi/' },
   keywords: [
     'öztiryakiler servisi',
     'öztiryakiler yetkili servisi',
@@ -18,7 +18,15 @@ export const metadata: Metadata = {
     title: 'Öztiryakiler Servisi - HSN TECHNIC Yetkili Servis',
     description:
       'Tüm Öztiryakiler endüstriyel mutfak ekipmanları için yetkili servis kalitesinde teknik destek, onarım ve bakım hizmetleri.',
-    url: `${site.url}/oztiryakiler-servisi`,
+    url: `${site.url}/oztiryakiler-servisi/`,
+    type: 'website',
+    siteName: site.brand,
+    locale: site.locale,
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Öztiryakiler Servisi' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.jpg'],
   },
 };
 

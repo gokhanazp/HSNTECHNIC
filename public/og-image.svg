@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- background -->
+  <rect width="1200" height="630" fill="#081c57"/>
+  <rect x="0" y="0" width="1200" height="630" fill="#16399E" opacity="0.35"/>
+  <circle cx="1050" cy="120" r="280" fill="#C8102E" opacity="0.18"/>
+
+  <!-- accent bar -->
+  <rect x="0" y="620" width="1200" height="10" fill="#C8102E"/>
+
+  <!-- brand badge -->
+  <rect x="80" y="80" width="320" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.12" stroke="#FFFFFF" stroke-opacity="0.22"/>
+  <circle cx="102" cy="102" r="5" fill="#C8102E"/>
+  <text x="120" y="109" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" letter-spacing="1.2">ÖZTIRYAKİLER YETKİLİ SERVİS</text>
+
+  <!-- main title -->
+  <text x="80" y="270" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="#FFFFFF">HSN TECHNIC</text>
+  <text x="80" y="345" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">Öztiryakiler</text>
+  <text x="360" y="345" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#FF4A60">Yetkili Servis</text>
+  <text x="80" y="395" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500" fill="#FFFFFF" fill-opacity="0.88">Endüstriyel Mutfak Teknik Servisi</text>
+
+  <!-- key points -->
+  <text x="80" y="475" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" fill-opacity="0.85">✓ 15+ Yıl Deneyim</text>
+  <text x="320" y="475" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" fill-opacity="0.85">✓ 7/24 Teknik Destek</text>
+  <text x="610" y="475" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" fill-opacity="0.85">✓ İşçilik Garantili</text>
+
+  <!-- contact -->
+  <rect x="80" y="525" width="320" height="55" rx="8" fill="#C8102E"/>
+  <text x="240" y="561" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">0536 778 23 79</text>
+
+  <!-- domain -->
+  <text x="1120" y="565" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#FFFFFF" fill-opacity="0.65">oztiryakileryetkiliservisi.com</text>
+</svg>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Öztiryakiler Bulaşık Makinesi Tamiri - Cup, Hood, Tünel Servisi',
   description:
     'Öztiryakiler bulaşık makinesi tamiri için HSN TECHNIC. Cup, hood ve tünel tipi tüm endüstriyel modellerde rezistans, pompa ve panel servisi.',
-  alternates: { canonical: '/oztiryakiler-bulasik-makinesi-tamiri' },
+  alternates: { canonical: '/oztiryakiler-bulasik-makinesi-tamiri/' },
   keywords: [
     'öztiryakiler bulaşık makinesi tamiri',
     'öztiryakiler bulaşık makinesi servisi',
@@ -19,7 +19,15 @@ export const metadata: Metadata = {
     title: 'Öztiryakiler Bulaşık Makinesi Tamiri - HSN TECHNIC',
     description:
       'Cup, hood ve tünel tipi Öztiryakiler endüstriyel bulaşık makinelerinde profesyonel tamir hizmeti.',
-    url: `${site.url}/oztiryakiler-bulasik-makinesi-tamiri`,
+    url: `${site.url}/oztiryakiler-bulasik-makinesi-tamiri/`,
+    type: 'website',
+    siteName: site.brand,
+    locale: site.locale,
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Öztiryakiler Bulaşık Makinesi Tamiri' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.jpg'],
   },
 };
 

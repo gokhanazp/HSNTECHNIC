@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   title: 'Hizmetler — Endüstriyel Mutfak Teknik Servisi',
   description:
     'Öztiryakiler yetkili servis hizmetleri: endüstriyel mutfak servisi, kurulum, soğuk oda, periyodik bakım ve tüm ekipman tamir hizmetleri.',
-  alternates: { canonical: '/hizmetler' },
+  alternates: { canonical: '/hizmetler/' },
 };
 
 export default function HizmetlerPage() {

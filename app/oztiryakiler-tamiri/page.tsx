@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Öztiryakiler Tamiri - Endüstriyel Mutfak Onarım Hizmetleri',
   description:
     'Öztiryakiler tamiri için profesyonel onarım hizmetleri. HSN TECHNIC olarak ocak, fritöz, fırın, bulaşık makinesi, soğuk oda dahil tüm Öztiryakiler ekipmanlarını tamir ediyoruz.',
-  alternates: { canonical: '/oztiryakiler-tamiri' },
+  alternates: { canonical: '/oztiryakiler-tamiri/' },
   keywords: [
     'öztiryakiler tamiri',
     'öztiryakiler tamir',
@@ -20,7 +20,15 @@ export const metadata: Metadata = {
     title: 'Öztiryakiler Tamiri - HSN TECHNIC Yetkili Servis',
     description:
       'Tüm Öztiryakiler endüstriyel mutfak ekipmanları için profesyonel tamir, onarım ve teknik servis hizmetleri.',
-    url: `${site.url}/oztiryakiler-tamiri`,
+    url: `${site.url}/oztiryakiler-tamiri/`,
+    type: 'website',
+    siteName: site.brand,
+    locale: site.locale,
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Öztiryakiler Tamiri' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.jpg'],
   },
 };
 

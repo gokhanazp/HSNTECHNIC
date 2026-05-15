@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Öztiryakiler Izgara Tamiri - Lavataşı ve Plaka Izgara Servisi',
   description:
     'Öztiryakiler ızgara tamiri için HSN TECHNIC. Lavataşı, plaka, kömür ve gazlı endüstriyel ızgara modellerinde profesyonel onarım hizmeti.',
-  alternates: { canonical: '/oztiryakiler-izgara-tamiri' },
+  alternates: { canonical: '/oztiryakiler-izgara-tamiri/' },
   keywords: [
     'öztiryakiler ızgara tamiri',
     'öztiryakiler ızgara servisi',
@@ -19,7 +19,15 @@ export const metadata: Metadata = {
     title: 'Öztiryakiler Izgara Tamiri - HSN TECHNIC Yetkili Servis',
     description:
       'Lavataşı, plaka ve gazlı Öztiryakiler endüstriyel ızgaralarına brülör, gaz vana ve plaka servisi.',
-    url: `${site.url}/oztiryakiler-izgara-tamiri`,
+    url: `${site.url}/oztiryakiler-izgara-tamiri/`,
+    type: 'website',
+    siteName: site.brand,
+    locale: site.locale,
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Öztiryakiler Izgara Tamiri' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.jpg'],
   },
 };
 

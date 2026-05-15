@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Öztiryakiler Fritöz Tamiri - Endüstriyel Fritöz Servisi',
   description:
     'Öztiryakiler fritöz tamiri için HSN TECHNIC. Rezistans, termostat, yağ sirkülasyonu ve kontrol panel arızalarına profesyonel servis.',
-  alternates: { canonical: '/oztiryakiler-fritoz-tamiri' },
+  alternates: { canonical: '/oztiryakiler-fritoz-tamiri/' },
   keywords: [
     'öztiryakiler fritöz tamiri',
     'öztiryakiler fritöz servisi',
@@ -18,7 +18,15 @@ export const metadata: Metadata = {
     title: 'Öztiryakiler Fritöz Tamiri - HSN TECHNIC Yetkili Servis',
     description:
       'Endüstriyel Öztiryakiler fritözleriniz için rezistans, termostat ve yağ sirkülasyonu servisleri.',
-    url: `${site.url}/oztiryakiler-fritoz-tamiri`,
+    url: `${site.url}/oztiryakiler-fritoz-tamiri/`,
+    type: 'website',
+    siteName: site.brand,
+    locale: site.locale,
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Öztiryakiler Fritöz Tamiri' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.jpg'],
   },
 };
 

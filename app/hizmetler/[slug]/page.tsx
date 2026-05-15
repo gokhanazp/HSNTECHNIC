@@ -36,11 +36,21 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     title: service.metaTitle,
     description: service.metaDescription,
     keywords: service.keywords,
-    alternates: { canonical: `/hizmetler/${service.slug}` },
+    alternates: { canonical: `/hizmetler/${service.slug}/` },
     openGraph: {
       title: service.metaTitle,
       description: service.metaDescription,
-      url: `${site.url}/hizmetler/${service.slug}`,
+      url: `${site.url}/hizmetler/${service.slug}/`,
+      type: 'website',
+      siteName: site.brand,
+      locale: site.locale,
+      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: service.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: service.metaTitle,
+      description: service.metaDescription,
+      images: ['/og-image.jpg'],
     },
   };
 }

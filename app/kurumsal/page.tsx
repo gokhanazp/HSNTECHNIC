@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: 'Kurumsal — Hakkımızda',
   description:
     'HSN TECHNIC hakkında bilgi: Endüstriyel mutfak teknik servis alanında uzman, deneyimli ekibimiz ve kurumsal hizmet anlayışımız ile tanışın. Öztiryakiler yetkili servis kalitesi.',
-  alternates: { canonical: '/kurumsal' },
+  alternates: { canonical: '/kurumsal/' },
 };
 
 export default function KurumsalPage() {

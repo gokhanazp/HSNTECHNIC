@@ -8,24 +8,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const base = site.url;
 
+  // next.config.mjs içinde trailingSlash: true var.
+  // Sitemap URL'leri MUTLAKA sonuna "/" ile yazılmalı, aksi halde
+  // her URL için Google 308 redirect alır ve indeksleme yavaşlar.
   const staticRoutes = [
     { path: '/', priority: 1.0, changeFrequency: 'weekly' as const },
-    { path: '/hizmetler', priority: 0.9, changeFrequency: 'monthly' as const },
-    { path: '/kurumsal', priority: 0.7, changeFrequency: 'monthly' as const },
-    { path: '/servis-talep', priority: 0.9, changeFrequency: 'monthly' as const },
-    { path: '/iletisim', priority: 0.8, changeFrequency: 'monthly' as const },
+    { path: '/hizmetler/', priority: 0.9, changeFrequency: 'monthly' as const },
+    { path: '/kurumsal/', priority: 0.7, changeFrequency: 'monthly' as const },
+    { path: '/servis-talep/', priority: 0.9, changeFrequency: 'monthly' as const },
+    { path: '/iletisim/', priority: 0.8, changeFrequency: 'monthly' as const },
   ];
 
   // SEO odaklı marka landing sayfaları (oztiryakiler-* yolları)
   const seoRoutes = seoLandingPages.map((p) => ({
-    path: `/${p.slug}`,
+    path: `/${p.slug}/`,
     priority: 0.95,
     changeFrequency: 'weekly' as const,
   }));
 
   // Tüm hizmet detay sayfaları
   const serviceRoutes = servicesData.map((s) => ({
-    path: `/hizmetler/${s.slug}`,
+    path: `/hizmetler/${s.slug}/`,
     priority: s.category === 'ana' ? 0.85 : 0.8,
     changeFrequency: 'monthly' as const,
   }));

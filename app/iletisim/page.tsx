@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'İletişim — Bize Ulaşın',
   description:
     'HSN TECHNIC iletişim bilgileri. Endüstriyel mutfak servis talebi için telefon, WhatsApp ve e-posta üzerinden bizimle iletişime geçin. Öztiryakiler yetkili servis.',
-  alternates: { canonical: '/iletisim' },
+  alternates: { canonical: '/iletisim/' },
 };
 
 export default function IletisimPage() {

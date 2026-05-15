@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Öztiryakiler Fırın Tamiri - Konveksiyon, Kombi, Döner Fırın Servisi',
   description:
     'Öztiryakiler fırın tamiri için HSN TECHNIC. Konveksiyonlu, kombi ve döner fırın modellerinde rezistans, fan, termostat ve panel servisi.',
-  alternates: { canonical: '/oztiryakiler-firin-tamiri' },
+  alternates: { canonical: '/oztiryakiler-firin-tamiri/' },
   keywords: [
     'öztiryakiler fırın tamiri',
     'öztiryakiler fırın servisi',
@@ -19,7 +19,15 @@ export const metadata: Metadata = {
     title: 'Öztiryakiler Fırın Tamiri - HSN TECHNIC Yetkili Servis',
     description:
       'Konveksiyonlu, kombi ve döner Öztiryakiler endüstriyel fırınlarına rezistans, fan ve panel servisi.',
-    url: `${site.url}/oztiryakiler-firin-tamiri`,
+    url: `${site.url}/oztiryakiler-firin-tamiri/`,
+    type: 'website',
+    siteName: site.brand,
+    locale: site.locale,
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Öztiryakiler Fırın Tamiri' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.jpg'],
   },
 };
 

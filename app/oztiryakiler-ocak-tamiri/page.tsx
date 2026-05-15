@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Öztiryakiler Ocak Tamiri - Endüstriyel Ocak Servisi',
   description:
     'Öztiryakiler ocak tamiri için HSN TECHNIC. Brülör arızası, gaz vana servisi, ateşleme problemleri ve tüm endüstriyel ocak modellerinde profesyonel onarım.',
-  alternates: { canonical: '/oztiryakiler-ocak-tamiri' },
+  alternates: { canonical: '/oztiryakiler-ocak-tamiri/' },
   keywords: [
     'öztiryakiler ocak tamiri',
     'öztiryakiler ocak servisi',
@@ -19,7 +19,15 @@ export const metadata: Metadata = {
     title: 'Öztiryakiler Ocak Tamiri - HSN TECHNIC Yetkili Servis',
     description:
       'Öztiryakiler endüstriyel ocaklarınız için brülör servisi, gaz vana onarımı ve ateşleme problemlerine profesyonel çözümler.',
-    url: `${site.url}/oztiryakiler-ocak-tamiri`,
+    url: `${site.url}/oztiryakiler-ocak-tamiri/`,
+    type: 'website',
+    siteName: site.brand,
+    locale: site.locale,
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Öztiryakiler Ocak Tamiri' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.jpg'],
   },
 };
 

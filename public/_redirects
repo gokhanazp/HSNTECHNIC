@@ -1,14 +1,17 @@
-# Cloudflare Pages için redirect'ler
-
-# www → root (canonical zorlama)
+# Cloudflare Pages redirects
+# www → apex (canonical zorlaması)
+# NOT: Cloudflare Pages'te host bazlı yönlendirme için path-only kuralla
+# birlikte "splat" deseni kullanılır. Tam URL formatı (https://www....) Pages'te
+# güvenilir çalışmıyor; bunun yerine "Bulk Redirect" ya da DNS+Worker gerekiyor.
+# Aşağıdaki kural Cloudflare Pages'in www.* hostundan gelen tüm yolu apex'e
+# 301 ile taşır.
 https://www.oztiryakileryetkiliservisi.com/* https://oztiryakileryetkiliservisi.com/:splat 301!
+http://www.oztiryakileryetkiliservisi.com/* https://oztiryakileryetkiliservisi.com/:splat 301!
+http://oztiryakileryetkiliservisi.com/* https://oztiryakileryetkiliservisi.com/:splat 301!
 
-# Eski statik versiyondaki URL'leri yeni yapıya yönlendir
+# Eski statik versiyondaki .html URL'leri 301 ile yeni yapıya yönlendir
 /index.html / 301
 /hizmetler.html /hizmetler/ 301
 /kurumsal.html /kurumsal/ 301
 /servis-talep.html /servis-talep/ 301
 /iletisim.html /iletisim/ 301
-
-# Türkçe karakter olmayan alternatifler
-/oztiryakiler-bakimi/ /oztiryakiler-bakimi/ 200
