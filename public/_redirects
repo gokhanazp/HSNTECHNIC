@@ -1,17 +1,18 @@
 # Cloudflare Pages redirects
-# www → apex (canonical zorlaması)
-# NOT: Cloudflare Pages'te host bazlı yönlendirme için path-only kuralla
-# birlikte "splat" deseni kullanılır. Tam URL formatı (https://www....) Pages'te
-# güvenilir çalışmıyor; bunun yerine "Bulk Redirect" ya da DNS+Worker gerekiyor.
-# Aşağıdaki kural Cloudflare Pages'in www.* hostundan gelen tüm yolu apex'e
-# 301 ile taşır.
-https://www.oztiryakileryetkiliservisi.com/* https://oztiryakileryetkiliservisi.com/:splat 301!
-http://www.oztiryakileryetkiliservisi.com/* https://oztiryakileryetkiliservisi.com/:splat 301!
-http://oztiryakileryetkiliservisi.com/* https://oztiryakileryetkiliservisi.com/:splat 301!
+# ------------------------------------------------------------------
+# ÖNEMLİ: Cloudflare Pages _redirects dosyası YALNIZCA "path" (yol) eşleştirir.
+# Hostname (www) veya şema (http/https) içeren kurallar Pages tarafından
+# YOK SAYILIR. Bu yüzden www -> apex ve http -> https yönlendirmesi bu dosyada
+# YAPILAMAZ.
+#
+# www -> apex 301 yönlendirmesi Cloudflare panelinden yapılmalıdır:
+#   Rules > Redirect Rules > Create rule (Single Redirect)
+#   (Adımlar için depodaki SEO-DUZELTME-RAPORU.md dosyasına bakın.)
+# ------------------------------------------------------------------
 
-# Eski statik versiyondaki .html URL'leri 301 ile yeni yapıya yönlendir
-/index.html / 301
-/hizmetler.html /hizmetler/ 301
-/kurumsal.html /kurumsal/ 301
-/servis-talep.html /servis-talep/ 301
-/iletisim.html /iletisim/ 301
+# Eski statik versiyondaki .html URL'lerini yeni yapıya 301 ile taşı
+/index.html          /                 301
+/hizmetler.html      /hizmetler/       301
+/kurumsal.html       /kurumsal/        301
+/servis-talep.html   /servis-talep/    301
+/iletisim.html       /iletisim/        301
